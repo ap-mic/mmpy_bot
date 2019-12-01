@@ -141,7 +141,7 @@ class MessageDispatcher(object):
                 msg['data']['post']['channel_id'], settings.DEFAULT_REPLY)
 
         default_reply = [
-            u'目前只支援在 Playground 使用！'
+            u'目前只支援在 ~playground 使用！'
         ]
 
         # create dictionary organizing commands by plugin
